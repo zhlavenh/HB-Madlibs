@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(251, 249, 255);
+    color: navy;
+
+}
+h1{
+    margin: 40px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+form{
+    width:600px;
+    height: 800px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 14px;
+    
+}
