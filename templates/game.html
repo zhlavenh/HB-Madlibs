@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <title>Game</title>
+  <link rel="stylesheet" href="/static/madlibs.css">
+</head>
+<body>
+
+<h1>Welcome to the game! </h1>
+
+
+<form action="/madlib">
+    What is the weirdest name you can think of?
+    <input type="text" name="person">
+  Please choose a color: 
+  <select name="color"> 
+    <option>Blue</option>
+    <option>Green</option>
+    <option>Red</option>
+    <option>Purple</option>
+    <option>Yellow</option>
+    <option>Pink</option>
+  </select>
+  Tell us a noun: <input type="text" name="noun"><br>
+
+  <form action="/random" id="random-choice">
+    Random adjective or you own?
+    <input type="radio" name="random">Random!
+    <input type="radio" name="user_input">My own!
+  </form>
+<!-- want function of being able to select radio button and then hide radio form
+and display either input boxes if they want to enter their own or skip and 
+randomize adjectives from py file and add to final output  -->
+
+
+  <input type="submit" value="Submit!">
+</form>
+
+<h3>Those are excellent choices!</h3>
+</body>
+</html>
